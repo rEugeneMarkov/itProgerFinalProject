@@ -1,0 +1,20 @@
+{
+    "name": "vendor/app",
+    "description": "itProger Final Project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eugene Markov",
+            "email": "reugenemarkov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    }
+}
